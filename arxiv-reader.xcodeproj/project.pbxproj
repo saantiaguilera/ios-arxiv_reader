@@ -14,9 +14,6 @@
 		1FF8E5D71EEB6D3A00291515 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8E5D51EEB6D3A00291515 /* FeedViewController.swift */; };
 		1FF8E5D81EEB6D3A00291515 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8E5D51EEB6D3A00291515 /* FeedViewController.swift */; };
 		1FF8E5D91EEB6D3A00291515 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8E5D51EEB6D3A00291515 /* FeedViewController.swift */; };
-		1FF8E5DA1EEB6D3A00291515 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF8E5D61EEB6D3A00291515 /* FeedViewController.xib */; };
-		1FF8E5DB1EEB6D3A00291515 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF8E5D61EEB6D3A00291515 /* FeedViewController.xib */; };
-		1FF8E5DC1EEB6D3A00291515 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF8E5D61EEB6D3A00291515 /* FeedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +44,7 @@
 		1FF8E5C01EEAE7DE00291515 /* arxiv-readerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arxiv-readerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF8E5C41EEAE7DE00291515 /* arxiv_readerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arxiv_readerUITests.swift; sourceTree = "<group>"; };
 		1FF8E5C61EEAE7DE00291515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FF8E5D51EEB6D3A00291515 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
-		1FF8E5D61EEB6D3A00291515 /* FeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
+		1FF8E5D51EEB6D3A00291515 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = "arxiv-reader/FeedViewController.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +141,6 @@
 		1FF8E5D41EEB6A4D00291515 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1FF8E5D61EEB6D3A00291515 /* FeedViewController.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -257,7 +252,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FF8E5DA1EEB6D3A00291515 /* FeedViewController.xib in Resources */,
 				1FF8E5AC1EEAE7DD00291515 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +260,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FF8E5DB1EEB6D3A00291515 /* FeedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +267,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FF8E5DC1EEB6D3A00291515 /* FeedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
