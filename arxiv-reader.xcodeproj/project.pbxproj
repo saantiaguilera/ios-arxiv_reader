@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1FF8E5A51EEAE7DD00291515 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8E5A41EEAE7DD00291515 /* AppDelegate.swift */; };
-		1FF8E5A71EEAE7DD00291515 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8E5A61EEAE7DD00291515 /* ViewController.swift */; };
 		1FF8E5AC1EEAE7DD00291515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF8E5AB1EEAE7DD00291515 /* Assets.xcassets */; };
-		1FF8E5AF1EEAE7DD00291515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF8E5AD1EEAE7DD00291515 /* LaunchScreen.storyboard */; };
 		1FF8E5BA1EEAE7DE00291515 /* arxiv_readerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8E5B91EEAE7DE00291515 /* arxiv_readerTests.swift */; };
 		1FF8E5C51EEAE7DE00291515 /* arxiv_readerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8E5C41EEAE7DE00291515 /* arxiv_readerUITests.swift */; };
+		1FF8E5D71EEB6D3A00291515 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8E5D51EEB6D3A00291515 /* FeedViewController.swift */; };
+		1FF8E5D81EEB6D3A00291515 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8E5D51EEB6D3A00291515 /* FeedViewController.swift */; };
+		1FF8E5D91EEB6D3A00291515 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8E5D51EEB6D3A00291515 /* FeedViewController.swift */; };
+		1FF8E5DA1EEB6D3A00291515 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF8E5D61EEB6D3A00291515 /* FeedViewController.xib */; };
+		1FF8E5DB1EEB6D3A00291515 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF8E5D61EEB6D3A00291515 /* FeedViewController.xib */; };
+		1FF8E5DC1EEB6D3A00291515 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF8E5D61EEB6D3A00291515 /* FeedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +39,7 @@
 /* Begin PBXFileReference section */
 		1FF8E5A11EEAE7DD00291515 /* arxiv-reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arxiv-reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF8E5A41EEAE7DD00291515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FF8E5A61EEAE7DD00291515 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1FF8E5AB1EEAE7DD00291515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1FF8E5AE1EEAE7DD00291515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FF8E5B01EEAE7DD00291515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FF8E5B51EEAE7DE00291515 /* arxiv-readerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arxiv-readerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF8E5B91EEAE7DE00291515 /* arxiv_readerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arxiv_readerTests.swift; sourceTree = "<group>"; };
@@ -45,6 +47,8 @@
 		1FF8E5C01EEAE7DE00291515 /* arxiv-readerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arxiv-readerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF8E5C41EEAE7DE00291515 /* arxiv_readerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arxiv_readerUITests.swift; sourceTree = "<group>"; };
 		1FF8E5C61EEAE7DE00291515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF8E5D51EEB6D3A00291515 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		1FF8E5D61EEB6D3A00291515 /* FeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +99,10 @@
 		1FF8E5A31EEAE7DD00291515 /* arxiv-reader */ = {
 			isa = PBXGroup;
 			children = (
-				1FF8E5A41EEAE7DD00291515 /* AppDelegate.swift */,
-				1FF8E5A61EEAE7DD00291515 /* ViewController.swift */,
+				1FF8E5D41EEB6A4D00291515 /* View */,
+				1FF8E5D31EEB6A4600291515 /* Controller */,
+				1FF8E5D21EEB69CC00291515 /* Application */,
 				1FF8E5AB1EEAE7DD00291515 /* Assets.xcassets */,
-				1FF8E5AD1EEAE7DD00291515 /* LaunchScreen.storyboard */,
 				1FF8E5B01EEAE7DD00291515 /* Info.plist */,
 			);
 			path = "arxiv-reader";
@@ -120,6 +124,30 @@
 				1FF8E5C61EEAE7DE00291515 /* Info.plist */,
 			);
 			path = "arxiv-readerUITests";
+			sourceTree = "<group>";
+		};
+		1FF8E5D21EEB69CC00291515 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1FF8E5A41EEAE7DD00291515 /* AppDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		1FF8E5D31EEB6A4600291515 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1FF8E5D51EEB6D3A00291515 /* FeedViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1FF8E5D41EEB6A4D00291515 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1FF8E5D61EEB6D3A00291515 /* FeedViewController.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FF8E5AF1EEAE7DD00291515 /* LaunchScreen.storyboard in Resources */,
+				1FF8E5DA1EEB6D3A00291515 /* FeedViewController.xib in Resources */,
 				1FF8E5AC1EEAE7DD00291515 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF8E5DB1EEB6D3A00291515 /* FeedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF8E5DC1EEB6D3A00291515 /* FeedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FF8E5A71EEAE7DD00291515 /* ViewController.swift in Sources */,
+				1FF8E5D71EEB6D3A00291515 /* FeedViewController.swift in Sources */,
 				1FF8E5A51EEAE7DD00291515 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF8E5D81EEB6D3A00291515 /* FeedViewController.swift in Sources */,
 				1FF8E5BA1EEAE7DE00291515 /* arxiv_readerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF8E5D91EEB6D3A00291515 /* FeedViewController.swift in Sources */,
 				1FF8E5C51EEAE7DE00291515 /* arxiv_readerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,17 +322,6 @@
 			targetProxy = 1FF8E5C11EEAE7DE00291515 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1FF8E5AD1EEAE7DD00291515 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FF8E5AE1EEAE7DD00291515 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1FF8E5C71EEAE7DE00291515 /* Debug */ = {
@@ -493,6 +514,7 @@
 				1FF8E5CB1EEAE7DE00291515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FF8E5CC1EEAE7DE00291515 /* Build configuration list for PBXNativeTarget "arxiv-readerTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +523,7 @@
 				1FF8E5CE1EEAE7DE00291515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FF8E5CF1EEAE7DE00291515 /* Build configuration list for PBXNativeTarget "arxiv-readerUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +532,7 @@
 				1FF8E5D11EEAE7DE00291515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
